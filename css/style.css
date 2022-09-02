@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+.dropdown{
+	      display:flex;
+		  justify-content:center;
+		  margin:30px;	
+		  list-style-type:none;
+}
+header{
+	 background-color:black;
+	
+}
+a{
+   display:block;
+    width:150px;
+	color:white;
+	background-color:black;
+	text-decoration:none;
+	padding:30px 30px;
+	font-size:20px;
+	text-align:center;
+	
+	
+	
+}
+a:hover{
+	     background-color:red;
+	
+	
+	
+}
+.course{
+	    list-style:none;
+		display:none;
+
+	
+	
+}
+.dropdown li:nth-child(2):hover .course{
+	                                   display:block;
+									   
+	                                   
+}
